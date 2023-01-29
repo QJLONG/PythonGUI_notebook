@@ -1,8 +1,3 @@
-"""
-Description: 利用所学 开发一个简单的记事本项目
-Auther: hummer
-CreateDate: 2023-03-28
-"""
 
 from tkinter import *
 
@@ -13,11 +8,11 @@ class Application(Frame):
         self.master = master
         self.pack()
         self.createWidget()
-
     
+
     def createWidget(self):
-        # 创建主菜单栏
-        menubar = Menu(root)
+    # 创建主菜单栏
+        menubar = Menu(root) 
 
         # 创建菜单
         menuFile = Menu(menubar)
